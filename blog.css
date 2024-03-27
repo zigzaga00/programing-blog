@@ -1,5 +1,33 @@
+body {
+    font-family: Verdana, sans-serif;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Garamond, serif;
+}
+
 .content {
     max-width: 900px;
     margin: 0 auto;
     padding: 32px;
+}
+
+.info {
+    text-align: center;
+    font-family: Garamond, serif;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.info span {
+    color: orangered
 }
